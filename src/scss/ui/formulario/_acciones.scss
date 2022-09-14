@@ -11,6 +11,10 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    &--centrar {
+        @extend .acciones;
+        justify-content: center;
+    }
     
     &__enlace {
         color: v.$negro;
